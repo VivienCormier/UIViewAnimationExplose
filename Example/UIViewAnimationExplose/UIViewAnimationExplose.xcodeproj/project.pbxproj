@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6D0B081733E1B7001401BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D0B071733E1B7001401BE /* UIKit.framework */; };
+		AD6D0B0A1733E1B7001401BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D0B091733E1B7001401BE /* Foundation.framework */; };
+		AD6D0B0C1733E1B7001401BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D0B0B1733E1B7001401BE /* CoreGraphics.framework */; };
+		AD6D0B121733E1B7001401BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD6D0B101733E1B7001401BE /* InfoPlist.strings */; };
+		AD6D0B141733E1B7001401BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6D0B131733E1B7001401BE /* main.m */; };
+		AD6D0B181733E1B7001401BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6D0B171733E1B7001401BE /* AppDelegate.m */; };
+		AD6D0B1A1733E1B7001401BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6D0B191733E1B7001401BE /* Default.png */; };
+		AD6D0B1C1733E1B7001401BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6D0B1B1733E1B7001401BE /* Default@2x.png */; };
+		AD6D0B1E1733E1B7001401BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6D0B1D1733E1B7001401BE /* Default-568h@2x.png */; };
+		AD6D0B211733E1B7001401BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6D0B201733E1B7001401BE /* ViewController.m */; };
+		AD6D0B241733E1B7001401BE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6D0B221733E1B7001401BE /* ViewController.xib */; };
+		AD6D0B2B1733E2CC001401BE /* becomeapanda_tumblr_com.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6D0B2A1733E2CC001401BE /* becomeapanda_tumblr_com.png */; };
+		AD6D0B2E1733E586001401BE /* UIViewAnimationExplose.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6D0B2D1733E586001401BE /* UIViewAnimationExplose.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD6D0B041733E1B7001401BE /* UIViewAnimationExplose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewAnimationExplose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6D0B071733E1B7001401BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD6D0B091733E1B7001401BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD6D0B0B1733E1B7001401BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD6D0B0F1733E1B7001401BE /* UIViewAnimationExplose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewAnimationExplose-Info.plist"; sourceTree = "<group>"; };
+		AD6D0B111733E1B7001401BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD6D0B131733E1B7001401BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD6D0B151733E1B7001401BE /* UIViewAnimationExplose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewAnimationExplose-Prefix.pch"; sourceTree = "<group>"; };
+		AD6D0B161733E1B7001401BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD6D0B171733E1B7001401BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD6D0B191733E1B7001401BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD6D0B1B1733E1B7001401BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD6D0B1D1733E1B7001401BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD6D0B1F1733E1B7001401BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD6D0B201733E1B7001401BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD6D0B231733E1B7001401BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AD6D0B2A1733E2CC001401BE /* becomeapanda_tumblr_com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = becomeapanda_tumblr_com.png; sourceTree = "<group>"; };
+		AD6D0B2C1733E586001401BE /* UIViewAnimationExplose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewAnimationExplose.h; path = ../../../UIViewAnimationExplose/UIViewAnimationExplose.h; sourceTree = "<group>"; };
+		AD6D0B2D1733E586001401BE /* UIViewAnimationExplose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewAnimationExplose.m; path = ../../../UIViewAnimationExplose/UIViewAnimationExplose.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD6D0B011733E1B7001401BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6D0B081733E1B7001401BE /* UIKit.framework in Frameworks */,
+				AD6D0B0A1733E1B7001401BE /* Foundation.framework in Frameworks */,
+				AD6D0B0C1733E1B7001401BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD6D0AFB1733E1B7001401BE = {
+			isa = PBXGroup;
+			children = (
+				AD6D0B0D1733E1B7001401BE /* UIViewAnimationExplose */,
+				AD6D0B061733E1B7001401BE /* Frameworks */,
+				AD6D0B051733E1B7001401BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD6D0B051733E1B7001401BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D0B041733E1B7001401BE /* UIViewAnimationExplose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD6D0B061733E1B7001401BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D0B071733E1B7001401BE /* UIKit.framework */,
+				AD6D0B091733E1B7001401BE /* Foundation.framework */,
+				AD6D0B0B1733E1B7001401BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6D0B0D1733E1B7001401BE /* UIViewAnimationExplose */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D0B161733E1B7001401BE /* AppDelegate.h */,
+				AD6D0B171733E1B7001401BE /* AppDelegate.m */,
+				AD6D0B1F1733E1B7001401BE /* ViewController.h */,
+				AD6D0B201733E1B7001401BE /* ViewController.m */,
+				AD6D0B221733E1B7001401BE /* ViewController.xib */,
+				AD6D0B2A1733E2CC001401BE /* becomeapanda_tumblr_com.png */,
+				AD6D0B2C1733E586001401BE /* UIViewAnimationExplose.h */,
+				AD6D0B2D1733E586001401BE /* UIViewAnimationExplose.m */,
+				AD6D0B0E1733E1B7001401BE /* Supporting Files */,
+			);
+			path = UIViewAnimationExplose;
+			sourceTree = "<group>";
+		};
+		AD6D0B0E1733E1B7001401BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D0B0F1733E1B7001401BE /* UIViewAnimationExplose-Info.plist */,
+				AD6D0B101733E1B7001401BE /* InfoPlist.strings */,
+				AD6D0B131733E1B7001401BE /* main.m */,
+				AD6D0B151733E1B7001401BE /* UIViewAnimationExplose-Prefix.pch */,
+				AD6D0B191733E1B7001401BE /* Default.png */,
+				AD6D0B1B1733E1B7001401BE /* Default@2x.png */,
+				AD6D0B1D1733E1B7001401BE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD6D0B031733E1B7001401BE /* UIViewAnimationExplose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6D0B271733E1B7001401BE /* Build configuration list for PBXNativeTarget "UIViewAnimationExplose" */;
+			buildPhases = (
+				AD6D0B001733E1B7001401BE /* Sources */,
+				AD6D0B011733E1B7001401BE /* Frameworks */,
+				AD6D0B021733E1B7001401BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIViewAnimationExplose;
+			productName = UIViewAnimationExplose;
+			productReference = AD6D0B041733E1B7001401BE /* UIViewAnimationExplose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD6D0AFC1733E1B7001401BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vivien Cormier";
+			};
+			buildConfigurationList = AD6D0AFF1733E1B7001401BE /* Build configuration list for PBXProject "UIViewAnimationExplose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD6D0AFB1733E1B7001401BE;
+			productRefGroup = AD6D0B051733E1B7001401BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD6D0B031733E1B7001401BE /* UIViewAnimationExplose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD6D0B021733E1B7001401BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6D0B121733E1B7001401BE /* InfoPlist.strings in Resources */,
+				AD6D0B1A1733E1B7001401BE /* Default.png in Resources */,
+				AD6D0B1C1733E1B7001401BE /* Default@2x.png in Resources */,
+				AD6D0B1E1733E1B7001401BE /* Default-568h@2x.png in Resources */,
+				AD6D0B241733E1B7001401BE /* ViewController.xib in Resources */,
+				AD6D0B2B1733E2CC001401BE /* becomeapanda_tumblr_com.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD6D0B001733E1B7001401BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6D0B141733E1B7001401BE /* main.m in Sources */,
+				AD6D0B181733E1B7001401BE /* AppDelegate.m in Sources */,
+				AD6D0B211733E1B7001401BE /* ViewController.m in Sources */,
+				AD6D0B2E1733E586001401BE /* UIViewAnimationExplose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD6D0B101733E1B7001401BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6D0B111733E1B7001401BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD6D0B221733E1B7001401BE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6D0B231733E1B7001401BE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD6D0B251733E1B7001401BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AD6D0B261733E1B7001401BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD6D0B281733E1B7001401BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewAnimationExplose/UIViewAnimationExplose-Prefix.pch";
+				INFOPLIST_FILE = "UIViewAnimationExplose/UIViewAnimationExplose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD6D0B291733E1B7001401BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewAnimationExplose/UIViewAnimationExplose-Prefix.pch";
+				INFOPLIST_FILE = "UIViewAnimationExplose/UIViewAnimationExplose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD6D0AFF1733E1B7001401BE /* Build configuration list for PBXProject "UIViewAnimationExplose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6D0B251733E1B7001401BE /* Debug */,
+				AD6D0B261733E1B7001401BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6D0B271733E1B7001401BE /* Build configuration list for PBXNativeTarget "UIViewAnimationExplose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6D0B281733E1B7001401BE /* Debug */,
+				AD6D0B291733E1B7001401BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD6D0AFC1733E1B7001401BE /* Project object */;
+}
