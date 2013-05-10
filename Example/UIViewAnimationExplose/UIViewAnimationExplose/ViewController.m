@@ -70,16 +70,13 @@
         // Animation Explosition
         //
         
-        // Init Animation
-        UIViewAnimationExplose *animation = [[UIViewAnimationExplose alloc]init];
-        
         for(id item in _allViews){
             
             UIView *view = item;
             if (view != viewtouch) {
                 
                 // Add Animation to UIView
-                [animation explositionOf:view WithOrigine:viewtouch WithDistance:1024.0f WithDuration:0.4f AndDelay:0.0f];
+                [view explositionWithOrigine:viewtouch.frame.origin WithDistance:1024.0f WithDuration:0.4f AndDelay:0.0f];
                 
             }else{
                 [UIView animateWithDuration:0.4 delay:0 options:UIViewAnimationOptionAllowUserInteraction

@@ -1,34 +1,31 @@
 //
 //  UIViewAnimationExplose.m
-//  ipadetapes
+//  V 1.1
+//  05-10-2013
 //
 //  Created by dvd on 03/05/13.
-//  Copyright (c) 2013 Pyramyd NTCV. All rights reserved.
+//  Copyright (c) 2013 Vivien Cormier. All rights reserved.
 //
 
 #import "UIViewAnimationExplose.h"
 
-@implementation UIViewAnimationExplose
+@implementation UIView (UIViewAnimationExplose)
 
-- (id)init{
-    return self;
-}
-
-- (void)explositionOf:(UIView *)start WithOrigine:(UIView *)origine WithDistance:(float)distance WithDuration:(float)duration AndDelay:(float)delay{
+- (void)explositionWithOrigine:(CGPoint)origine WithDistance:(float)distance WithDuration:(float)duration AndDelay:(float)delay{
     
-    CGPoint final   = [self finalPositionFor:start WithOrigine:origine AndDistance:distance];
+    CGPoint final   = [self finalPositionFor:self.frame.origin WithOrigine:origine AndDistance:distance];
     
     [UIView animateWithDuration:duration delay:delay options:UIViewAnimationOptionAllowUserInteraction
                      animations:^{
-                         start.frame = CGRectMake(final.x, final.y, start.frame.size.width, start.frame.size.height);
+                         self.frame = CGRectMake(final.x, final.y, self.frame.size.width, self.frame.size.height);
                      } completion:nil];
     
 }
 
-- (CGPoint)finalPositionFor:(UIView *)viewStart WithOrigine:(UIView *)viewOrigine AndDistance:(float)distance{
+- (CGPoint)finalPositionFor:(CGPoint)pointStart WithOrigine:(CGPoint)pointOrigine AndDistance:(float)distance{
     
-    CGPoint origin  = CGPointMake(viewOrigine.frame.origin.x, viewOrigine.frame.origin.y);
-    CGPoint start   = CGPointMake(viewStart.frame.origin.x, viewStart.frame.origin.y);
+    CGPoint origin  = CGPointMake(pointOrigine.x, pointOrigine.y);
+    CGPoint start   = CGPointMake(pointStart.x, pointStart.y);
     
     float startDistance = sqrtf((start.x - origin.x)*(start.x - origin.x) + (start.y - origin.y)*(start.y - origin.y));
     float distanceX = (start.x - origin.x) * ( startDistance + distance ) / startDistance;
@@ -37,9 +34,15 @@
     float finalX;
     float finalY;
     
-    if (origin.x == start.x) {
+    if (origin.x == start.x && origin.y == start.y) {
+        finalX = origin.x;
+        finalY = origin.y;
+    }else if(origin.x == start.x) {
         finalX = origin.x;
         finalY = origin.y + distanceY;
+    }else if(origin.y == start.y){
+        finalX = origin.x + distanceX;
+        finalY = origin.y;
     }else{
         finalX = origin.x + distanceX;
         finalY = origin.y + distanceY;
