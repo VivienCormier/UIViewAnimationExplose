@@ -1,5 +1,6 @@
 UIViewAnimationExplose
 ======================
+<p> V 1.1 - 05-10-2013</p>
 
 <p>For UIView separation with animation</p>
 <a href="http://www.viviencormier.fr/" target="_blank">My WebSite</a> - <a href="https://twitter.com/VivienCormier" target="_blank">My Twitter</a>
@@ -20,20 +21,12 @@ How To Get Started
 #import "UIViewAnimationExplose.h"
 ```
 
-
-<p>Init the UIViewAnimationExplose :</p>
-``` objective-c
-UIViewAnimationExplose *animation = [[UIViewAnimationExplose alloc]init];
-```
-
 <p>And add the animation</p>
 ``` objective-c
-for(id item in _allViews){
-    UIView *view = item;
-    
-    if (view != viewtouch) {
-        [animation explositionOf:view WithOrigine:viewtouch WithDistance:1024.0f WithDuration:0.4f AndDelay:0.0f];
-    }
-    
-}
+
+// Center of explosion
+CGPoint center = CGPointMake(20,300);
+
+// view is the object I want it move
+[view explositionWithOrigine:center WithDistance:1024.0f WithDuration:0.4f AndDelay:0.0f];
 ```
