@@ -7,7 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIViewAnimationExplose.h"
 
 @interface AnimationExploseContainer : NSObject
+
+- (id) init;
+
+- (id) initWithViews:(NSArray*) views;
+
+- (void) setViews:(NSArray*) views;
+
+- (NSArray*) getViews;
+
+- (void) addView:(UIView*) view;
+
+- (void)openThisView:(UIView*) view;
+
+- (void)closeThisView:(UIView*) view;
 
 @end

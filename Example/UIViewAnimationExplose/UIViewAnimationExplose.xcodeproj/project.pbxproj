@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451ACBCA1743B2B5005CB46B /* AnimationExploseContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 451ACBC91743B2B5005CB46B /* AnimationExploseContainer.m */; };
 		AD6D0B081733E1B7001401BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D0B071733E1B7001401BE /* UIKit.framework */; };
 		AD6D0B0A1733E1B7001401BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D0B091733E1B7001401BE /* Foundation.framework */; };
 		AD6D0B0C1733E1B7001401BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D0B0B1733E1B7001401BE /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		451ACBC81743B2B5005CB46B /* AnimationExploseContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationExploseContainer.h; sourceTree = "<group>"; };
+		451ACBC91743B2B5005CB46B /* AnimationExploseContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationExploseContainer.m; sourceTree = "<group>"; };
 		AD6D0B041733E1B7001401BE /* UIViewAnimationExplose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewAnimationExplose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6D0B071733E1B7001401BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AD6D0B091733E1B7001401BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +100,8 @@
 				AD6D0B2C1733E586001401BE /* UIViewAnimationExplose.h */,
 				AD6D0B2D1733E586001401BE /* UIViewAnimationExplose.m */,
 				AD6D0B0E1733E1B7001401BE /* Supporting Files */,
+				451ACBC81743B2B5005CB46B /* AnimationExploseContainer.h */,
+				451ACBC91743B2B5005CB46B /* AnimationExploseContainer.m */,
 			);
 			path = UIViewAnimationExplose;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				AD6D0B181733E1B7001401BE /* AppDelegate.m in Sources */,
 				AD6D0B211733E1B7001401BE /* ViewController.m in Sources */,
 				AD6D0B2E1733E586001401BE /* UIViewAnimationExplose.m in Sources */,
+				451ACBCA1743B2B5005CB46B /* AnimationExploseContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +281,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIViewAnimationExplose/UIViewAnimationExplose-Prefix.pch";
 				INFOPLIST_FILE = "UIViewAnimationExplose/UIViewAnimationExplose-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,7 +294,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIViewAnimationExplose/UIViewAnimationExplose-Prefix.pch";
 				INFOPLIST_FILE = "UIViewAnimationExplose/UIViewAnimationExplose-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -310,6 +320,7 @@
 				AD6D0B291733E1B7001401BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
