@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimationExploseContainer.h"
 
 @interface ViewController : UIViewController
 
 @property (nonatomic, retain) NSMutableArray *allViews;
+@property (nonatomic, retain) AnimationExploseContainer *exploseContainer;
 
 @end
