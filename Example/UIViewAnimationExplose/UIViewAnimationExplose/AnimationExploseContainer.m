@@ -87,13 +87,15 @@
     }
     
     if([self._views containsObject:view]){
+        
+        struct CGPoint origine = view.frame.origin;
         for(id item in self._views){
             
             UIView *viewItem = item;
             if (viewItem != view) {
                 
                 // Add Animation to UIView
-                [viewItem explositionWithOrigine:view.frame.origin WithDistance:1024.0f WithDuration:0.4f AndDelay:0.0f];
+                [viewItem explositionWithOrigine:origine WithDistance:1024.0f WithDuration:0.4f AndDelay:0.0f];
                 
             }else{
                 [UIView animateWithDuration:0.4 delay:0 options:UIViewAnimationOptionAllowUserInteraction
